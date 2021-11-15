@@ -1,0 +1,177 @@
+add_namespace = plb
+
+country_event = {
+	id = plb.1
+	title = plb.1.t
+	desc = plb.1.d
+
+	picture = GFX_report_event_german_parade_paris
+
+	trigger = {
+		tag = PLB
+		is_ai = no
+		NOT = { has_war_with = PLA }
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = plb.1.a
+		every_state = {
+			set_demilitarized_zone = no
+		}
+		declare_war_on = {
+			target = PLA
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = plb.2
+	title = plb.2.t
+	desc = plb.2.d
+
+	picture = GFX_report_event_france_tank_production
+
+	trigger = {
+		tag = PLB
+		is_ai = no
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "1938"
+		set_variable = { global.war_date = 1938 }
+		set_variable = { global.days_to_war = 730 }
+	}
+	option = {
+		name = "1939"
+		set_variable = { global.war_date = 1939 }
+		set_variable = { global.days_to_war = 1095 }
+	}
+	option = {
+		name = "1940"
+		set_variable = { global.war_date = 1940 }
+		set_variable = { global.days_to_war = 1460 }
+	}
+	option = {
+		name = "1941"
+		set_variable = { global.war_date = 1941 }
+		set_variable = { global.days_to_war = 1825 }
+	}
+}
+
+country_event = {
+	id = plb.3
+	title = plb.3.t
+	desc = plb.3.d
+
+	picture = GFX_report_event_merchant_ship_01
+
+	trigger = {
+		tag = PLB
+		is_ai = no
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes, we need all the resources we can get!"
+		if = {
+			limit = {
+				NOT = { has_global_flag = no_trade_with_republic }
+			}
+			NEU = {
+				add_ideas = free_trade
+			}
+			set_global_flag = no_trade_with_republic
+		}
+	}
+	option = {
+		name = "No the mighty Soviet Union is capable of standing alone!"
+		NEU = {
+			add_ideas = closed_economy
+		}
+	}
+}
+
+country_event = {
+	id = plb.4
+	title = plb.4.t
+	desc = plb.4.d
+
+	picture = GFX_report_event_german_polish_border
+
+	trigger = {
+		tag = PLB
+		is_ai = no
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Yes, demilitarise the border"
+		set_global_flag = demilitarised_border
+
+		191 = { set_demilitarized_zone = yes }
+		12 = { set_demilitarized_zone = yes }
+		96 = { set_demilitarized_zone = yes }
+		95 = { set_demilitarized_zone = yes }
+		94 = { set_demilitarized_zone = yes }
+		93 = { set_demilitarized_zone = yes }
+		91 = { set_demilitarized_zone = yes }
+		78 = { set_demilitarized_zone = yes }
+		766 = { set_demilitarized_zone = yes }
+		192 = { set_demilitarized_zone = yes }
+		198 = { set_demilitarized_zone = yes }
+		199 = { set_demilitarized_zone = yes }
+		201 = { set_demilitarized_zone = yes }
+		194 = { set_demilitarized_zone = yes }
+		204 = { set_demilitarized_zone = yes }
+		206 = { set_demilitarized_zone = yes }
+		207 = { set_demilitarized_zone = yes }
+		210 = { set_demilitarized_zone = yes }
+		209 = { set_demilitarized_zone = yes }
+		208 = { set_demilitarized_zone = yes }
+	}
+	option = {
+		name = "No, we shall breathe down their throats!"
+	}
+}
+
+country_event = {
+	id = plb.5
+	title = plb.5.t
+	desc = plb.5.d
+
+	picture = GFX_report_event_canada_patriation
+
+	trigger = {
+		tag = PLB
+		is_ai = no
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "Lets go!"
+		country_event = {
+			id = plb.2
+			days = 0
+		}
+		country_event = {
+			id = plb.3
+			days = 0
+		}
+		country_event = {
+			id = plb.4
+			days = 0
+		}
+	}
+}

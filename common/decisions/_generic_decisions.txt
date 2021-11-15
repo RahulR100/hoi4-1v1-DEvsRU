@@ -1,0 +1,3 @@
+political_actions = {
+	#remove everything we customise later
+}

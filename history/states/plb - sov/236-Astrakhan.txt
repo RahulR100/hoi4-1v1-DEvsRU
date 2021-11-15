@@ -1,0 +1,31 @@
+
+state={
+	id=236
+	name="STATE_236"
+	manpower=1000000
+	
+	state_category = rural
+	resources = { 
+		steel=2 
+		aluminium=2 
+		oil=2 
+		rubber=2
+		tungsten=2 
+		chromium=2
+	}
+
+	history={
+		owner=PLB
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+		}
+		add_core_of=PLB
+	}
+
+	provinces={
+		618 757 3435 3461 3487 3726 6486 6516 6620 6758 6760 9440 9455 9592 9735 9753 11429 11579 11706 11736 
+	}
+}

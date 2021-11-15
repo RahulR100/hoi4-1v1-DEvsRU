@@ -1,0 +1,87 @@
+﻿capital = 277
+
+#OOB = "ALB_1936"
+
+set_technology = {
+	#nothing to start with
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_rule = {
+	can_create_factions = no
+	can_not_declare_war = yes
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_ideas = {
+	disarmed_nation
+}
+
+set_research_slots = 1
+set_convoys = 10000
+set_stability = 0 
+set_war_support = 0
+
+create_country_leader = {
+	name = "Lázaro Cárdenas"
+	desc = "POLITICS_LAZARO_CARDENAS_DESC"
+	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Salvador Abascal"
+	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
+	picture = "GFX_Portrait_MEX_Salvador_Abascal"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		fascist_militia_leader
+	}
+}
+
+create_country_leader = { # Exiled until 1935 following a rebellion attempt, allowed back in by Cardenas and joined the cabinet of Avila
+	name = "Adolfo de la Huerta"
+	desc = "POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
+	picture = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = { # Stalinist, took over after assassination of Trotsky. 1940-1959
+	name = "Dionisio Encina"
+	desc = "POLITICS_DIONISIO_ENCINA_DESC"
+	picture = "GFX_Portrait_MEX_Dionisio_Encina"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		staunch_stalinist
+	}
+}
+
+create_country_leader = { # Trotskyist, led the PCM 1929-1940
+	name = "Hernán Laborde"
+	desc = "POLITICS_HERNAN_LABORDE_DESC"
+	picture = "GFX_Portrait_MEX_Hernan_Laborde"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		devoted_trotskyist
+	}
+}

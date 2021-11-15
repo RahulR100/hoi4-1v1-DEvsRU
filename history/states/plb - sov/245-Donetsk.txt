@@ -1,0 +1,31 @@
+
+state={
+	id=245
+	name="STATE_245" # Millerovo
+	manpower=1000000
+	
+	state_category = rural
+	resources = { 
+		steel=2 
+		aluminium=2 
+		oil=2 
+		rubber=2
+		tungsten=2 
+		chromium=2
+	}
+
+	history={
+		owner=PLB
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+		}
+		add_core_of=PLB
+	}
+
+	provinces={
+		449 484 500 509 533 3478 3489 3505 3519 3540 6544 6566 9488 9516 9540 9565 11459 11476 11501 
+	}
+}

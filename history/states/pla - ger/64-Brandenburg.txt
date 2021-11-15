@@ -1,0 +1,36 @@
+
+state={
+	id=64
+	name="STATE_64"
+	manpower=1000000
+	buildings_max_level_factor = 1
+	resources = { 
+		steel=2 
+		aluminium=2 
+		oil=2 
+		rubber=2
+		tungsten=2 
+		chromium=2
+	}
+
+	state_category = megalopolis
+
+
+	history={
+		owner=PLA
+		victory_points = {
+			6521 100 
+		}
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+		}
+		add_core_of=PLA
+	}
+
+	provinces={
+		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+	}
+}

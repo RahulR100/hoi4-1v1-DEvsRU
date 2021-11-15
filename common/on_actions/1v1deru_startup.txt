@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			PLA = {
+				country_event = { # Welcome. ALWAYS AT BOTTOM
+					id = pla.5
+					days = 0
+				}
+			}
+			PLB = {
+				country_event = { # Welcome. ALWAYS AT BOTTOM
+					id = plb.5
+					days = 0
+				}
+			}
+		}
+	}
+}

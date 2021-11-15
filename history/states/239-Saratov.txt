@@ -1,0 +1,31 @@
+
+state={
+	id=239
+	name="STATE_239"
+	manpower=1000000
+	
+	state_category = town
+	resources = { 
+		steel=2 
+		aluminium=2 
+		oil=2 
+		rubber=2
+		tungsten=2 
+		chromium=2
+	}
+
+	history={
+		owner=PLB
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+		}
+		add_core_of=PLB
+	}
+
+	provinces={
+		326 353 433 483 578 3304 3316 3343 3426 3465 3477 3578 6328 6366 6450 6492 6539 9326 9352 9460 9564 11308 11408 11449 11551 
+	}
+}

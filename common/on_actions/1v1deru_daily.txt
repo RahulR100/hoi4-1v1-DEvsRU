@@ -1,0 +1,36 @@
+on_actions = {
+	on_daily_NEU = {
+		effect = {
+			set_political_power = 0
+			set_war_support = 0
+			set_equipment_fraction = 0
+
+			if = {
+
+				limit = { has_variable = global.days_to_war }
+				if = {
+					limit = { check_variable = { global.days_to_war = 0 } }
+					clear_variable = global.days_to_war
+					PLA = {
+						country_event = {
+							id = pla.1
+							days = 0
+						}
+					}
+					PLB = {
+						country_event = {
+							id = plb.1
+							days = 0
+						}
+					}
+				}
+
+				subtract_from_variable = {
+					var = global.days_to_war
+					value = 1
+				}
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=89
+	name="STATE_89"
+
+	resources = { 
+		steel=2 
+		aluminium=2 
+		oil=2 
+		rubber=2
+		tungsten=2 
+		chromium=2
+	}
+
+	history={
+		owner=PLA
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+		}
+		add_core_of=PLA
+	}
+
+	provinces={
+		3743 6431 6460 6483 9425 11411 11550 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

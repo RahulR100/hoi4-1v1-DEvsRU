@@ -1,0 +1,31 @@
+
+state={
+	id=4
+	name="STATE_4"
+	manpower=1000000
+	resources = { 
+		steel=2 
+		aluminium=2 
+		oil=2 
+		rubber=2
+		tungsten=2 
+		chromium=2
+	}
+	
+	state_category = large_city
+	
+	history={
+		owner=PLA
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+		}
+		add_core_of=PLA
+	}
+
+	provinces={
+		653 704 3700 3718 6690 6739 9527 9646 9648 9661 9679 11630 11666 
+	}
+}

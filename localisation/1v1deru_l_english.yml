@@ -1,0 +1,27 @@
+﻿l_english:
+	pla.1.t:0 "The Game Begins!"
+	pla.1.d:0 "The Fatherland calls upon us! Our military is ready for your orders. Let us once and for all show the communists the superiority of our way of life."
+	pla.1.a:0 "Oh Schibe!"
+	plb.1.t:0 "The Game Begins!"
+	plb.1.d:0 "The Motherland is prepared! We shall take not one step back until the fascist scums are lying on their backs in Berlin."
+	plb.1.a:0 "Oh Blyat!"
+
+	pla.2.t:0 "Select war declaration date"
+	pla.2.d:0 "An automatic declaration event will take place to set us at war with the Soviets. \n\nIf Stalin selects a different time then we will go to war at the earlier of those two times."
+	plb.2.t:0 "Select war declaration date"
+	plb.2.d:0 "An automatic declaration event will take place to set us at war with the Germans. \n\nIf Hitler selects a different time then we will go to war at the earlier of those two times."
+
+	pla.3.t:0 "Do you want resources from the trade republic?"
+	pla.3.d:0 "Some high ranking members of our Army think it will be a good idea to trade with the neutral trade republic to gain access to more resources. Others disagree stating that this will cost our civillian production dearly and that we should instead focus on remaining autarkic, and wish to use our political might to stop the trade republic from exporting goods at all, crippling the Soviet war effort. They have approached you, the Führer for a final decision on the matter."
+	plb.3.t:0 "Do you want resources from the trade republic?"
+	plb.3.d:0 "Some high ranking members of our Army think it will be a good idea to trade with the neutral trade republic to gain access to more resources. Others disagree stating that this will cost our civillian production dearly and that we should instead focus on remaining autarkic, and wish to use our political might to stop the trade republic from exporting goods at all, crippling the German war effort. They have approached you, the Supreme Premier for a final decision on the matter."
+
+	pla.4.t:0 "Do you want the border to be de-militarised?"
+	pla.4.d:0 "Our eastern border will be completely de-militarised. The Soviets will not be able to see our troops and will not be entrenched once the war starts. However, similar penalties apply to us. Advisors further note that de-militarising the border now will cut off northern Estonia from the rest of the Reich, making us heavily dependent on the 2 nearby naval ports for supply. How do we proceed? \n\nNote, if either side opts to de-militarise, both sides of the border will be de-militarised."
+	plb.4.t:0 "Do you want the border to be de-militarised?"
+	plb.4.d:0 "Our western border will be completely de-militarised. The Germans will not be able to see our troops and will not be entrenched once the war starts. However, similar penalties apply to us. Advisors further note that de-militarising the border will cut off northern Estonia from the rest of the German Reich. This could prove to be a great strategic weakness that we could exploit! How do we proceed? \n\nNote, if either side opts to de-militarise, both sides of the border will be de-militarised."
+
+	pla.5.t:0 "Welcome to 1v1 Germany vs USSR!"
+	pla.5.d:0 "Hello and welcome to this competitive match. I would like to thank you for downloading this mod. As a busy university student it means a lot to me that people enjoy this as I put whatever spare time I can find into it. If you like the game please share this mod with your friends. Thank you! \n\n Version - 1.7"
+	plb.5.t:0 "Welcome to 1v1 Germany vs USSR!"
+	plb.5.d:0 "Hello and welcome to this competitive match. I would like to thank you for downloading this mod. As a busy university student it means a lot to me that people enjoy this as I put whatever spare time I can find into it. If you like the game please share this mod with your friends. Thank you! \n\n Version - 1.7"
